@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		842961B22099A3D900D87255 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 842961B12099A3D900D87255 /* AppDelegate.m */; };
+		842961B52099A3D900D87255 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842961B42099A3D900D87255 /* ViewController.m */; };
+		842961B82099A3D900D87255 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842961B62099A3D900D87255 /* Main.storyboard */; };
+		842961BA2099A3DB00D87255 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842961B92099A3DB00D87255 /* Assets.xcassets */; };
+		842961BD2099A3DB00D87255 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842961BB2099A3DB00D87255 /* LaunchScreen.storyboard */; };
+		842961C02099A3DB00D87255 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 842961BF2099A3DB00D87255 /* main.m */; };
+		842961CA2099A3DC00D87255 /* PopAlertViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 842961C92099A3DC00D87255 /* PopAlertViewControllerTests.m */; };
+		842961D52099A3DC00D87255 /* PopAlertViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 842961D42099A3DC00D87255 /* PopAlertViewControllerUITests.m */; };
+		842961EC2099A41F00D87255 /* PopupAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 842961E32099A41E00D87255 /* PopupAction.m */; };
+		842961ED2099A41F00D87255 /* BasePopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842961E42099A41E00D87255 /* BasePopupViewController.m */; };
+		842961EE2099A41F00D87255 /* PopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842961EA2099A41E00D87255 /* PopupViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		842961C62099A3DC00D87255 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 842961A52099A3D900D87255 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 842961AC2099A3D900D87255;
+			remoteInfo = PopAlertViewController;
+		};
+		842961D12099A3DC00D87255 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 842961A52099A3D900D87255 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 842961AC2099A3D900D87255;
+			remoteInfo = PopAlertViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		842961AD2099A3D900D87255 /* PopAlertViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopAlertViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		842961B02099A3D900D87255 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		842961B12099A3D900D87255 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		842961B32099A3D900D87255 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		842961B42099A3D900D87255 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		842961B72099A3D900D87255 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		842961B92099A3DB00D87255 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		842961BC2099A3DB00D87255 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		842961BE2099A3DB00D87255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842961BF2099A3DB00D87255 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		842961C52099A3DC00D87255 /* PopAlertViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopAlertViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		842961C92099A3DC00D87255 /* PopAlertViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopAlertViewControllerTests.m; sourceTree = "<group>"; };
+		842961CB2099A3DC00D87255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842961D02099A3DC00D87255 /* PopAlertViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopAlertViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		842961D42099A3DC00D87255 /* PopAlertViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopAlertViewControllerUITests.m; sourceTree = "<group>"; };
+		842961D62099A3DC00D87255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842961E32099A41E00D87255 /* PopupAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupAction.m; sourceTree = "<group>"; };
+		842961E42099A41E00D87255 /* BasePopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasePopupViewController.m; sourceTree = "<group>"; };
+		842961E52099A41E00D87255 /* PopupAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupAction.h; sourceTree = "<group>"; };
+		842961E62099A41E00D87255 /* BasePopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePopupViewController.h; sourceTree = "<group>"; };
+		842961E72099A41E00D87255 /* PopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupViewController.h; sourceTree = "<group>"; };
+		842961EA2099A41E00D87255 /* PopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupViewController.m; sourceTree = "<group>"; };
+		842961F22099A51400D87255 /* PopupCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopupCommon.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		842961AA2099A3D900D87255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842961C22099A3DC00D87255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842961CD2099A3DC00D87255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		842961A42099A3D900D87255 = {
+			isa = PBXGroup;
+			children = (
+				842961AF2099A3D900D87255 /* PopAlertViewController */,
+				842961C82099A3DC00D87255 /* PopAlertViewControllerTests */,
+				842961D32099A3DC00D87255 /* PopAlertViewControllerUITests */,
+				842961AE2099A3D900D87255 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		842961AE2099A3D900D87255 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				842961AD2099A3D900D87255 /* PopAlertViewController.app */,
+				842961C52099A3DC00D87255 /* PopAlertViewControllerTests.xctest */,
+				842961D02099A3DC00D87255 /* PopAlertViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		842961AF2099A3D900D87255 /* PopAlertViewController */ = {
+			isa = PBXGroup;
+			children = (
+				842961B02099A3D900D87255 /* AppDelegate.h */,
+				842961B12099A3D900D87255 /* AppDelegate.m */,
+				842961B32099A3D900D87255 /* ViewController.h */,
+				842961B42099A3D900D87255 /* ViewController.m */,
+				842961E22099A40A00D87255 /* PopAlert */,
+				842961B62099A3D900D87255 /* Main.storyboard */,
+				842961B92099A3DB00D87255 /* Assets.xcassets */,
+				842961BB2099A3DB00D87255 /* LaunchScreen.storyboard */,
+				842961BE2099A3DB00D87255 /* Info.plist */,
+				842961BF2099A3DB00D87255 /* main.m */,
+			);
+			path = PopAlertViewController;
+			sourceTree = "<group>";
+		};
+		842961C82099A3DC00D87255 /* PopAlertViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				842961C92099A3DC00D87255 /* PopAlertViewControllerTests.m */,
+				842961CB2099A3DC00D87255 /* Info.plist */,
+			);
+			path = PopAlertViewControllerTests;
+			sourceTree = "<group>";
+		};
+		842961D32099A3DC00D87255 /* PopAlertViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				842961D42099A3DC00D87255 /* PopAlertViewControllerUITests.m */,
+				842961D62099A3DC00D87255 /* Info.plist */,
+			);
+			path = PopAlertViewControllerUITests;
+			sourceTree = "<group>";
+		};
+		842961E22099A40A00D87255 /* PopAlert */ = {
+			isa = PBXGroup;
+			children = (
+				842961E62099A41E00D87255 /* BasePopupViewController.h */,
+				842961E42099A41E00D87255 /* BasePopupViewController.m */,
+				842961E52099A41E00D87255 /* PopupAction.h */,
+				842961E32099A41E00D87255 /* PopupAction.m */,
+				842961E72099A41E00D87255 /* PopupViewController.h */,
+				842961EA2099A41E00D87255 /* PopupViewController.m */,
+				842961F22099A51400D87255 /* PopupCommon.h */,
+			);
+			path = PopAlert;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		842961AC2099A3D900D87255 /* PopAlertViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842961D92099A3DC00D87255 /* Build configuration list for PBXNativeTarget "PopAlertViewController" */;
+			buildPhases = (
+				842961A92099A3D900D87255 /* Sources */,
+				842961AA2099A3D900D87255 /* Frameworks */,
+				842961AB2099A3D900D87255 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopAlertViewController;
+			productName = PopAlertViewController;
+			productReference = 842961AD2099A3D900D87255 /* PopAlertViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		842961C42099A3DC00D87255 /* PopAlertViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842961DC2099A3DC00D87255 /* Build configuration list for PBXNativeTarget "PopAlertViewControllerTests" */;
+			buildPhases = (
+				842961C12099A3DC00D87255 /* Sources */,
+				842961C22099A3DC00D87255 /* Frameworks */,
+				842961C32099A3DC00D87255 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				842961C72099A3DC00D87255 /* PBXTargetDependency */,
+			);
+			name = PopAlertViewControllerTests;
+			productName = PopAlertViewControllerTests;
+			productReference = 842961C52099A3DC00D87255 /* PopAlertViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		842961CF2099A3DC00D87255 /* PopAlertViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842961DF2099A3DC00D87255 /* Build configuration list for PBXNativeTarget "PopAlertViewControllerUITests" */;
+			buildPhases = (
+				842961CC2099A3DC00D87255 /* Sources */,
+				842961CD2099A3DC00D87255 /* Frameworks */,
+				842961CE2099A3DC00D87255 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				842961D22099A3DC00D87255 /* PBXTargetDependency */,
+			);
+			name = PopAlertViewControllerUITests;
+			productName = PopAlertViewControllerUITests;
+			productReference = 842961D02099A3DC00D87255 /* PopAlertViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		842961A52099A3D900D87255 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = dreamLee;
+				TargetAttributes = {
+					842961AC2099A3D900D87255 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					842961C42099A3DC00D87255 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 842961AC2099A3D900D87255;
+					};
+					842961CF2099A3DC00D87255 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 842961AC2099A3D900D87255;
+					};
+				};
+			};
+			buildConfigurationList = 842961A82099A3D900D87255 /* Build configuration list for PBXProject "PopAlertViewController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 842961A42099A3D900D87255;
+			productRefGroup = 842961AE2099A3D900D87255 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				842961AC2099A3D900D87255 /* PopAlertViewController */,
+				842961C42099A3DC00D87255 /* PopAlertViewControllerTests */,
+				842961CF2099A3DC00D87255 /* PopAlertViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		842961AB2099A3D900D87255 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842961BD2099A3DB00D87255 /* LaunchScreen.storyboard in Resources */,
+				842961BA2099A3DB00D87255 /* Assets.xcassets in Resources */,
+				842961B82099A3D900D87255 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842961C32099A3DC00D87255 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842961CE2099A3DC00D87255 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		842961A92099A3D900D87255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842961B52099A3D900D87255 /* ViewController.m in Sources */,
+				842961EE2099A41F00D87255 /* PopupViewController.m in Sources */,
+				842961C02099A3DB00D87255 /* main.m in Sources */,
+				842961EC2099A41F00D87255 /* PopupAction.m in Sources */,
+				842961ED2099A41F00D87255 /* BasePopupViewController.m in Sources */,
+				842961B22099A3D900D87255 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842961C12099A3DC00D87255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842961CA2099A3DC00D87255 /* PopAlertViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842961CC2099A3DC00D87255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842961D52099A3DC00D87255 /* PopAlertViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		842961C72099A3DC00D87255 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 842961AC2099A3D900D87255 /* PopAlertViewController */;
+			targetProxy = 842961C62099A3DC00D87255 /* PBXContainerItemProxy */;
+		};
+		842961D22099A3DC00D87255 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 842961AC2099A3D900D87255 /* PopAlertViewController */;
+			targetProxy = 842961D12099A3DC00D87255 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		842961B62099A3D900D87255 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842961B72099A3D900D87255 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		842961BB2099A3DB00D87255 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842961BC2099A3DB00D87255 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		842961D72099A3DC00D87255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		842961D82099A3DC00D87255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		842961DA2099A3DC00D87255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T75433Q8Q7;
+				INFOPLIST_FILE = PopAlertViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dreamLee.PopAlertViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		842961DB2099A3DC00D87255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T75433Q8Q7;
+				INFOPLIST_FILE = PopAlertViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dreamLee.PopAlertViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		842961DD2099A3DC00D87255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T75433Q8Q7;
+				INFOPLIST_FILE = PopAlertViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dreamLee.PopAlertViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopAlertViewController.app/PopAlertViewController";
+			};
+			name = Debug;
+		};
+		842961DE2099A3DC00D87255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T75433Q8Q7;
+				INFOPLIST_FILE = PopAlertViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dreamLee.PopAlertViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopAlertViewController.app/PopAlertViewController";
+			};
+			name = Release;
+		};
+		842961E02099A3DC00D87255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T75433Q8Q7;
+				INFOPLIST_FILE = PopAlertViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dreamLee.PopAlertViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PopAlertViewController;
+			};
+			name = Debug;
+		};
+		842961E12099A3DC00D87255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T75433Q8Q7;
+				INFOPLIST_FILE = PopAlertViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dreamLee.PopAlertViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PopAlertViewController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		842961A82099A3D900D87255 /* Build configuration list for PBXProject "PopAlertViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842961D72099A3DC00D87255 /* Debug */,
+				842961D82099A3DC00D87255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		842961D92099A3DC00D87255 /* Build configuration list for PBXNativeTarget "PopAlertViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842961DA2099A3DC00D87255 /* Debug */,
+				842961DB2099A3DC00D87255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		842961DC2099A3DC00D87255 /* Build configuration list for PBXNativeTarget "PopAlertViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842961DD2099A3DC00D87255 /* Debug */,
+				842961DE2099A3DC00D87255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		842961DF2099A3DC00D87255 /* Build configuration list for PBXNativeTarget "PopAlertViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842961E02099A3DC00D87255 /* Debug */,
+				842961E12099A3DC00D87255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 842961A52099A3D900D87255 /* Project object */;
+}
