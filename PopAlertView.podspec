@@ -14,9 +14,12 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/Dreamle"
 
 
-  s.license      = "MIT"
+  s.license = { :type => 'MIT', :text => <<-LICENSE
+         Copyright PPAbner 2016-2017
+          LICENSE
+      }
 
-  s.author             = { "admin" => "404436209@qq.com" }
+  s.author       = { "Email" => "404436209@qq.com" }
   s.platform     = :ios
   s.platform     = :ios, "7.0"
 
