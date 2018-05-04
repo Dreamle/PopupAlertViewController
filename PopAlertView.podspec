@@ -8,6 +8,7 @@ Pod::Spec.new do |s|
   s.summary      = "第一次制作"
 
   s.description  = <<-DESC
+                   第一次尝试
                    DESC
 
   s.homepage     = "https://github.com/Dreamle"
