@@ -2,7 +2,6 @@
 
 Pod::Spec.new do |s|
 
-
   s.name         = "PopAlertView"
   s.version      = "0.0.2"
   s.summary      = "第一次制作"
@@ -26,7 +25,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Dreamle/PopupAlertViewController.git", :tag => s.version }
 
 
-  s.source_files  = "PopAlertView", "*.{h,m}"
+  s.source_files  = "PopAlertView", "*.*"
  
   s.requires_arc = true
 
