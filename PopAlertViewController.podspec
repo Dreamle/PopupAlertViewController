@@ -13,10 +13,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/Dreamle"
 
 
-  s.license      = { :type => "MIT", :text => <<-LICENSE
-           Copyright DreamLee 2018-2019
-           LICENSE
-      }
+  s.license      = "MIT"
 
   s.author             = { "admin" => "404436209@qq.com" }
   s.platform     = :ios
@@ -25,7 +22,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Dreamle/PopupAlertViewController.git", :tag => s.version }
 
 
-  s.source_files  = "PopupAlertViewController/PopAlertViewController/PopAlert"
+  s.source_files  = "PopAlertViewController/PopAlert","*.{h,m}"
  
   s.requires_arc = true
 
