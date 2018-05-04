@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
                    第一次尝试
                    DESC
 
-  s.homepage     = "https://github.com/Dreamle"
+  s.homepage     = "https://github.com/Dreamle/PopupAlertViewController"
 
 
   s.license = { :type => 'MIT', :text => <<-LICENSE
