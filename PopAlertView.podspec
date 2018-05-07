@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "PopAlertView"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "第一次制作"
 
   s.description  = <<-DESC
